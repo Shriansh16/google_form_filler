@@ -43,7 +43,7 @@ if submit1:
                 f"Informations to be extracted:\n{result}"
             )
         #input_prompt = prompt.format(para=para, result=result)
-        st.write(prompt)
+        #st.write(prompt)
         #st.write("Extracted Information (Key-Value Pairs):")
         response = get_response(prompt)
         st.write(response)
