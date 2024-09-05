@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 from data_scrapper import get_google_form_questions
 from openai import OpenAI
