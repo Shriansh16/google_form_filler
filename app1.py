@@ -15,7 +15,7 @@ def get_response(input):
 st.write("Please enter the link below:")
 
 # Text input for the Google Form link
-user_link = st.text_input("Paste your Google Form link here")
+user_link = st.text_input("Paste your Google Form link here and press enter")
 
 # Check if the link is provided
 result=None
